@@ -1,0 +1,25 @@
+/**
+ * @Author: fuqi
+ * @Date:   2018-01-27T12:53:17+08:00
+ * @Email:  29984051@qq.com
+ * @Project: mmall
+ * @Filename: index.css
+ * @Last modified by:   fuqi
+ * @Last modified time: 2018-01-27T12:56:38+08:00
+ * @License: 123
+ */
+.footer .links{
+    text-align: center;
+    color: #666;
+    margin-top: 15px;
+}
+.footer .links .link{
+    color: #666;
+    padding:0 10px;
+}
+
+.footer .copyright{
+    margin:15px auto;
+    text-align: center;
+    color: #666;
+}

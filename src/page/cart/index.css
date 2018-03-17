@@ -1,0 +1,155 @@
+/**
+ * @Author: fuqi
+ * @Date:   2018-02-22T11:58:13+08:00
+ * @Email:  29984051@qq.com
+ * @Project: mmall
+ * @Filename: index.css
+ * @Last modified by:   fuqi
+ * @Last modified time: 2018-02-22T17:40:14+08:00
+ * @License: 123
+ */
+
+.cart-table{
+    width: 100%;
+    border-collapse:collapse;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+/* header */
+.cart-header{
+    background: #eee;
+}
+
+.cart-table .table-cell{
+    height: 45px;
+    font-size: 14px;
+}
+
+
+/* cell */
+.cart-table .cell-check{
+    width: 8%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+.cart-table .cell-info{
+    width: 45%;
+    text-align: left;
+    padding-left: 138px;
+}
+.cart-list .cell-img{
+    width: 10%;
+}
+.cart-list .cell-img .p-img{
+    width: 85px;
+    margin:15px;
+    border: 1px solid #eee;
+}
+.cart-list .cell-info{
+    width: 33%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.cart-table .cell-price{
+    width: 10%;
+    text-align: center;
+}
+.cart-table .cell-count{
+    width: 15%;
+    text-align: center;
+    position: relative;
+}
+.cart-table .cell-count .count-btn{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #eee;
+    cursor: pointer;
+    user-select: none;
+    -web-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+.cart-table .cell-count .count-btn.minus{
+    top: 42px;
+    left: 21px;
+}
+.cart-table .cell-count .count-btn.plus{
+    top: 42px;
+    left: 124px;
+}
+.cart-table .cell-count .count-input{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    outline: none;
+    background: #fff;
+    border:1px solid #eee;
+}
+.cart-table .cell-total{
+    width: 10%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color:#333;
+}
+.cart-table .cell-edit{
+    width: 10%;
+    text-align: center;
+}
+
+.cart-footer{
+    width: 100%;
+    height: 55px;
+    line-height:55px;
+    background: #eee;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.cart-footer .select-con{
+    float: left;
+    padding-left: 15px;
+}
+.cart-footer .delete-con{
+    float: left;
+    padding-left: 46px;
+}
+.cart-footer .price-con{
+    float: right;
+    height: 55px;
+    line-height: 55px;
+}
+.cart-footer .price-con .total-price{
+    font-size: 18px;
+    color: #c60023;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.cart-footer .price-con .btn-submit{
+    height: 55px;
+    line-height: 55px;
+    padding:0 35px;
+}
+
+
+
+/* 错误信息 */
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    color:#f60;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #eee;
+}

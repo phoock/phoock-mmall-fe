@@ -1,0 +1,32 @@
+/**
+ * @Author: fuqi
+ * @Date:   2018-01-27T21:09:42+08:00
+ * @Email:  29984051@qq.com
+ * @Project: mmall
+ * @Filename: index.css
+ * @Last modified by:   fuqi
+ * @Last modified time: 2018-01-27T21:39:37+08:00
+ * @License: 123
+ */
+
+.page-wrap{
+    background: #fff;
+    padding:40px 0;
+    text-align: center;
+}
+.page-wrap .result-con{
+    display: none;
+}
+.page-wrap .result-con .result-title{
+    color: #444;
+}
+
+.page-wrap .result-con .result-link{
+    margin-top: 20px;
+}
+
+.page-wrap .result-con .result-link .link{
+    padding:5px 10px;
+    border:1px solid #ccc;
+    margin:0 5px;
+}

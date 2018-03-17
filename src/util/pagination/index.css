@@ -1,0 +1,31 @@
+/**
+ * @Author: fuqi
+ * @Date:   2018-02-21T10:45:08+08:00
+ * @Email:  29984051@qq.com
+ * @Project: mmall
+ * @Filename: index.css
+ * @Last modified by:   fuqi
+ * @Last modified time: 2018-02-21T12:20:11+08:00
+ * @License: 123
+ */
+
+.pg-item{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding:0 15px;
+    margin:0 2px;
+    border:1px solid #ccc;
+    background: #eee;
+    cursor: pointer;
+}
+.pg-item.active{
+    background: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    cursor: auto;
+}
+.pg-item.disable{
+    color:#ccc;
+    background: none;
+    cursor: auto;
+}

@@ -1,0 +1,16 @@
+<div class="pg-content">
+    {{#pageArray}}
+        {{#disable}}
+        <span class="pg-item disable" data-value = {{value}}>{{name}}</span>
+        {{/disable}}
+        {{^disable}}
+        {{#isActive}}
+            <span class="pg-item active" data-value = {{value}}>{{name}}</span>
+        {{/isActive}}
+        {{^isActive}}
+            <span class="pg-item" data-value = {{value}}>{{name}}</span>
+        {{/isActive}}
+        {{/disable}}
+
+    {{/pageArray}}
+</div>

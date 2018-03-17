@@ -1,0 +1,23 @@
+/**
+ * @Author: fuqi
+ * @Date:   2018-01-25T21:03:19+08:00
+ * @Email:  29984051@qq.com
+ * @Project: mmall
+ * @Filename: index.css
+ * @Last modified by:   fuqi
+ * @Last modified time: 2018-01-25T21:10:03+08:00
+ * @License: 123
+ */
+
+.nav-simple {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+}

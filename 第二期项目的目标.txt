@@ -1,0 +1,13 @@
+@Author: fuqi
+@Date:   2018-01-24T11:20:17+08:00
+@Email:  29984051@qq.com
+@Project: mmall
+@Filename: 第二期项目的目标.txt
+@Last modified by:   fuqi
+@Last modified time: 2018-01-24T16:44:56+08:00
+@License: 123
+
+
+一.掌握vim文本编辑器的操作
+二.初始linux操作系统
+三.每个模块都可以完全脱离教程,独自开发

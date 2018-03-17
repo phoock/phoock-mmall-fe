@@ -1,0 +1,31 @@
+/**
+ * @Author: fuqi
+ * @Date:   2018-01-27T15:07:25+08:00
+ * @Email:  29984051@qq.com
+ * @Project: mmall
+ * @Filename: index.css
+ * @Last modified by:   fuqi
+ * @Last modified time: 2018-01-27T15:15:45+08:00
+ * @License: 123
+ */
+.nav-side{
+    float: left;
+    width: 130px;
+    min-height: 100px;
+}
+.nav-side .nav-item{
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+.nav-side .nav-item .link{
+    color: #888;
+}
+.nav-side .nav-item.active .link{
+    color: #c60023;
+}
+
+.content.with-nav{
+    float:left;
+    width: 950px;
+}

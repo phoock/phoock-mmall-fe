@@ -1,0 +1,216 @@
+/**
+ * @Author: fuqi
+ * @Date:   2018-02-23T09:32:02+08:00
+ * @Email:  29984051@qq.com
+ * @Project: mmall
+ * @Filename: index.css
+ * @Last modified by:   fuqi
+ * @Last modified time: 2018-02-24T11:01:51+08:00
+ * @License: 123
+ */
+
+/* address */
+
+.address-con {
+    overflow: hidden;
+}
+
+.address-item {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin-right: 15px;
+    border: 3px dashed #ccc;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.address-item.active {
+    border: 3px dashed #c60023;
+}
+
+.address-item:hover {
+    background: #efefef;
+}
+
+.address-item .address-title {
+    height: 20px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.address-item .address-detail {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.address-item .address-opera {
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    visibility: hidden;
+}
+
+.address-item:hover .address-opera {
+    visibility: visible;
+}
+
+/* address-add */
+
+.address-add {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin-right: 15px;
+    border: 3px dashed #ccc;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+.address-add .address-new{
+    padding:5px 0;
+    text-align: center;
+    color:#999;
+}
+.address-add .address-new .fa{
+    font-size: 50px;
+}
+.address-add .address-new .text{
+    height: 21px;
+}
+
+
+/* product部分样式 */
+.product-con{
+
+}
+.product-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.product-table th,
+.product-table td{
+    border-bottom: 1px dotted #ddd;
+}
+.product-table .cell-img{
+    padding:10px;
+    width: 10%;
+}
+.product-table .cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    padding:10px;
+    border: 1px solid #ddd;
+}
+.product-table .cell-info{
+    width: 30%;
+    text-align: left;
+}
+.product-table .cell-price{
+    width: 20%;
+    text-align: center;
+}
+.product-table .cell-count{
+    width: 20%;
+    text-align: center;
+}
+.product-table .cell-total{
+    width: 20%;
+    text-align: center;
+}
+
+.submit-con{
+    background: #eee;
+    text-align: right;
+}
+.submit-con .submit-total{
+    margin-right: 20px;
+    font-size: 18px;
+    color: #c60023;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.submit-con .order-submit{
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+/* modal样式 */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #eee;
+    background: rgba(0,0,0,.7);
+    z-index: 10;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal-container{
+    width: 500px;
+    margin:100px auto;
+    padding:10px;
+    border-radius: 3px;
+    background: #fff;
+}
+.modal-container .modal-title{
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+    color:#333;
+}
+.modal-container .modal-title h1{
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 5px;
+}
+.modal-container .modal-title .fa{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.modal-container .modal-body{
+    margin: 15px 0;
+    color:#666;
+}
+
+/* form */
+.modal-container .form .form-line{
+    margin-top: 5px;
+}
+.modal-container .form .form-line .label{
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+}
+.modal-container .form .form-line .label .require{
+    font-weight: bold;
+    vertical-align: middle;
+    color: red;
+}
+.modal-container .form .form-line .form-item{
+    margin-left: 10px;
+    padding-left: 5px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+}
+.modal-container .form .form-line .address-btn{
+    height: 35px;
+    line-height: 35px;
+    margin-left: 124px;
+}
